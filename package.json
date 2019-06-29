@@ -1,0 +1,31 @@
+{
+  "name": "color-names-cli",
+  "version": "1.0.0",
+  "description": "Get names of colors from cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "color": "./cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "ui.js"
+  ],
+  "author": "Nick The Sick",
+  "license": "ISC",
+  "dependencies": {
+    "auto-bind": "^2.1.0",
+    "clipboardy": "^2.1.0",
+    "import-jsx": "^2.0.0",
+    "ink": "^2.3.0",
+    "ink-text-input": "^3.2.0",
+    "meow": "^5.0.0",
+    "react": "^16.8.6"
+  }
+}

@@ -19,7 +19,7 @@ const cli = meow(
      $curious-blue
 
 	Options
-      --copy -c       Copy the color to the keyboard
+      --copy -c       Copy the color to the clipboard
       --help -h       This help text
 
 	Run it without arguments to enter the live repl
